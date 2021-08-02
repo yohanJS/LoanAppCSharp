@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #F17720;
+    --secondary-color: #00A7E1;
+    --light-color: #EBEBEB;
+    --dark-color: #292929;
+    --white-color: #eee;
+    --black-color: #111;
+}
+body {
+    color: var(--black-color);
+}
+nav, footer {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.txt-color {
+    color: var(--primary-color);
+}
+main>.container {
+    padding: 60px 15px 0;
+}
+.make-text-bigger {
+    font-size: 2em;
+    color: #00A7E1;
+    text-align: right;
+}
+.js-color {
+    color: #efd81d;
+}
+.bs-color {
+    color: #8612fb;
+}
+.my-bold {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.html-color {
+    color: #e54c21;
+}
+.css-color {
+    color: #264de4;
+}
+footer i:hover {
+    opacity: 0.6;
+}
